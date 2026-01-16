@@ -4,7 +4,7 @@ import { HeaderNav } from "../components";
 export default function Root() {
   return (
     <div className="flex min-h-screen w-screen flex-col">
-      <header className="h-15 w-full bg-red-600 opacity-25">
+      <header className="h-15 w-full bg-red-600">
         <HeaderNav />
       </header>
       <main className="flex-1">
