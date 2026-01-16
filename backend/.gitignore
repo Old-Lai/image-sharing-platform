@@ -1,0 +1,22 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+*.log
+
+# Environment variables
+.env
+
+# Prisma artifacts
+prisma/dev.db
+prisma/dev.db-journal
+prisma/migrations/
+
+# Temp storage (seeded and uploaded files)
+temp/
+
+# OS/Editor crap
+.DS_Store
+*.swp
+*.swo

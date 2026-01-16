@@ -7,21 +7,34 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-dist
-dist-ssr
+# Build outputs
+dist/
+dist-ssr/
+build/
+.temp/
 *.local
 
-# Editor directories and files
+# Env files
+.env
+!.env.example
+
+# Node
+node_modules/
+*node_modules/
+
+# Backend specific
+backend/temp/
+backend/prisma/dev.db
+backend/prisma/dev.db-journal
+backend/prisma/migrations/
+
+# Editor & OS files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 *.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw
-
-dist/
-*node_modules/
-*.env
+*.sw?
