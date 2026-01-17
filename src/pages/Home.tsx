@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import type { Image } from "../definitions/api";
-
-const API_URL="http://localhost:3000/"
-// const API_URL="https://backend.oldlai.com/"
+import { API_URL } from "../api/url";
 
 export default function Home() {
   const [items, setItems] = useState<Image[]>([]);
