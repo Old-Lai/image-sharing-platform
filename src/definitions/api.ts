@@ -1,4 +1,4 @@
-export type Image = {
+export type API_Image = {
     "id":string;
     "filename":string;
     "title":string;
